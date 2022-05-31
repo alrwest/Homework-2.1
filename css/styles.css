@@ -96,9 +96,9 @@ nav .links span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -119,12 +119,13 @@ nav .links span {
   font-size: 20px;
 }
 .hero .centered-content .subtext {
+  width: 416px;
   color: white;
   font-style: italic;
   font-family: GillSanReg;
   font-size: 20px;
   text-align: center;
-  margin-top: 50px;
+  margin: 25px 50px;
 }
 .hero .centered-content .button {
   height: 40px;
@@ -208,9 +209,9 @@ nav .links span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space;
-      -ms-flex-pack: space;
-          justify-content: space;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .upcoming-events .events .event {
   width: 210px;
@@ -221,6 +222,7 @@ nav .links span {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-right: 20px;
 }
 .upcoming-events .events .event .date {
   width: 60px;
@@ -233,10 +235,17 @@ nav .links span {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .upcoming-events .events .event .event-detail {
   font-family: GillSansReg;
   width: 140px;
+  margin-left: 20px;
 }
 .upcoming-events .events .event .event-detail .highlight {
   font-size: 15px;
@@ -281,6 +290,9 @@ footer .contact {
   font-family: GillSansReg;
   text-align: center;
   margin-top: 15px;
+}
+footer .contact p {
+  margin: 5px;
 }
 footer .signup {
   height: 60px;

@@ -11,7 +11,7 @@
     .centered-content {
         width: 300px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         flex-direction: column;
 
@@ -28,14 +28,14 @@
             font-size: 20px;
 
         }
-
         .subtext {
+            width: 416px;
             color: white;
             font-style: italic;
             font-family: GillSanReg;
             font-size: 20px;
             text-align: center;
-            margin-top: 50px;
+            margin: 25px 50px;
         }
 
         .button {
